@@ -4,6 +4,6 @@ for i in range(1, 101):
         a+='Fizz'
     if i%5==0:
         a+='Buzz'
-    if acc=='':
+    if a=='':
         a=i
     print(a)
