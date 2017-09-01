@@ -8,7 +8,7 @@ main(){
   char r[n];
   t=n;
   while(n>-1){
-    r[t-n]=i/R+48+(i/R>9?7:0);
+    r[t-n]=i/R+48+7*(R<9);
     i%=R;
     n--;
   }
